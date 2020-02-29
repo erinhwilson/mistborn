@@ -1,0 +1,17 @@
+{
+  "nodes": [
+    {"id": "red","color":"violet","name":"vin"},
+    {"id": "orange","color":"blue","name":"kelsier"},
+    {"id": "yellow","color":"green","name":"breeze"},
+    {"id": "green","color":"violet","name":"ham"},
+    {"id": "blue","color":"violet","name":"spook"},
+    {"id": "violet","color":"violet","name":"sazed"}
+  ],
+  "links": [
+    {"source": "red", "target": "yellow","weight":300,"colorr":"red"},
+    {"source": "yellow", "target": "red","colorr":"blue"},
+    {"source": "red", "target": "blue","colorr":"red"},
+    {"source": "red", "target": "violet","weight":500,"colorr":"red"},
+    {"source": "green", "target": "orange","colorr":"red"}
+  ]
+}

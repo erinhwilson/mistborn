@@ -1,0 +1,21 @@
+- having trouble just recreating http://bl.ocks.org/jose187/4733747#graphFile.json on my own computer
+
+- tried running from a local server on my own computer because otherwise it wouldn't let me load a local file...
+	- python -m http.server
+	- opened localhost:8000/network.html
+
+- force function seems outta whack... switched to forceSimulation?
+
+- current error says force.nodes/force.links is not a function... but clearly this is used in other code.
+
+- poop
+
+- apparently some combination of just restarting the server/ re=-copy pasting made it happy to display a network.
+
+- now I'm having trouble making the source and target refer to node ids instead of the index in the nodes list
+
+ - net2 uses id names but can't drag or change weight
+
+ - net3: sometimes the d3 viz decides to stop responding to changes in the .json file... but renaming it fixes... caching somehow?
+
+ - next steP: how do I make the dual errors
