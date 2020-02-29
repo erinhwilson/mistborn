@@ -23,7 +23,7 @@ text {
 }*/
 
 </style>
-<svg width="960" height="500"></svg>
+<svg width="960" height="700"></svg>
 <script src="//d3js.org/d3.v4.min.js"></script>
 
 <script>
@@ -34,8 +34,8 @@ var svg = d3.select("svg"),
 
 
 var simulation = d3.forceSimulation()
-    .force("charge", d3.forceManyBody().strength(-200))
-    .force("link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
+    .force("charge", d3.forceManyBody().strength(-400))
+    .force("link", d3.forceLink().id(function(d) { return d.name; }).distance(100))
     .force("x", d3.forceX(width / 2))
     .force("y", d3.forceY(height / 2))
     //.on("tick", ticked)
@@ -46,16 +46,18 @@ var simulation = d3.forceSimulation()
 // var link = svg.selectAll(".link"),
 //     node = svg.selectAll(".node");
 
-d3.json("colorGraph2.json", function(error, graph) {
+d3.json("eyebrow_network.json", function(error, graph) {
   if (error) throw error;
+
 
   var link = svg.append("g")
       .attr("class", "links") //links?
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-      .style("stroke", function(d) { return d.colorr; })
-      .attr("stroke-width", function(d) { return Math.sqrt(d.weight); });
+      .style("stroke", "gray")
+      .attr("stroke-width", function(d) { return d.count; })
+      ;
 
   var node = svg.append("g")
       .attr("class", "nodes")
@@ -68,7 +70,8 @@ d3.json("colorGraph2.json", function(error, graph) {
           .on("end", dragended))
 
   var circles = node.append("circle")
-      .attr("r", 10)
+      .attr("r", function(d) { return Math.sqrt(d.count)*5; })
+      //.attr("r", 10)
       .style("fill", function(d) { return d.color; })
       ;
 
