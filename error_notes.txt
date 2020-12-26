@@ -18,4 +18,22 @@
 
  - net3: sometimes the d3 viz decides to stop responding to changes in the .json file... but renaming it fixes... caching somehow?
 
- - next steP: how do I make the dual errors
+ - next steP: how do I make the dual arrows?
+
+ Current status:
+ - Made network force diagram with real mistborn eyebrow data from book 1
+ - run from python -m http.server
+ - net3.html is current best
+ - got data into json in ipynb 
+ - data = eyebrow_network.json
+
+ Maybe helpful links for bidir arrow:
+ * https://bl.ocks.org/d3noob/5141278
+ * https://stackoverflow.com/questions/52358115/d3-force-graph-with-arrows-and-curved-edges-shorten-links-so-arrow-doesnt-over
+ * https://stackoverflow.com/questions/41226734/align-marker-on-node-edges-d3-force-layout/41229068#41229068
+ * https://codepen.io/quirkules/pen/dqXRwj
+
+ 
+
+ Other force network links
+ * https://bl.ocks.org/mbostock/533daf20348023dfdd76

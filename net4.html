@@ -37,12 +37,29 @@ var simulation = d3.forceSimulation()
 d3.json("miserables.json", function(error, graph) {
   if (error) throw error;
 
+  svg.append('defs').append('marker')
+  .attr('id', 'arrowhead')
+  .attr('viewBox', '-0 -5 10 10')
+  .attr('refX', 0)
+  .attr('refY', 0)
+  .attr('orient', 'auto')
+  .attr('markerWidth', 13)
+  .attr('markerHeight', 13)
+  .attr('xoverflow', 'visible')
+  .append('svg:path')
+  .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+  .attr('fill', '#999')
+  .style('stroke', 'none');
+
+
   var link = svg.append("g")
       .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); })
+      .attr('marker-end', 'url(#arrowhead)')
+      ;
 
   var node = svg.append("g")
       .attr("class", "nodes")
