@@ -1,4 +1,4 @@
-page	character	target	book
+page	source	target	book
 2	obligator	tresting	1
 8	kelsier	tepper	1
 25	laird	camon	1
@@ -36,7 +36,7 @@ page	character	target	book
 303	shan	vin	1
 306	vin	elend	1
 307	vin	elend	1
-313	kelsier	hoyd	1
+313	kelsier	hoid	1
 323	kelsier	vin	1
 323	kelsier	vin	1
 329	kelsier	vin	1
@@ -114,7 +114,6 @@ page	character	target	book
 239	vin	elend	3
 247	sazed	quellion	3
 282	elend	telden	3
-305	marsh	inanimate object (a room)	3
 307	breeze	spook	3
 308	spook	breeze	3
 313	spook	skaa man	3
