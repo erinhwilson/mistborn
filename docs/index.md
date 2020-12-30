@@ -37,7 +37,7 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
             </td>
             <td>
                 <a href="viz/fe_swarm.md" title="Go to static visualization" display='inline'>
-                    <img src="viz/fe_swarm.png" alt="Final Empire: Connections over time, static" width="300"/>
+                    <img src="viz/fe_swarm.png" alt="Final Empire: Connections over time, static" width="350"/>
                     <p style="text-align: center">Eyebrow exchanges over time - static</p>
                 </a>
             </td>
