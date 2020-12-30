@@ -19,7 +19,7 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 </a>
             </td>
             <td>
-                <a href="viz/fe_net.md" title="Go to interactive visualization" display='inline'>
+                <a href="viz/fe_net.html" title="Go to interactive visualization" display='inline'>
                     <img src="img/fe_net.gif" alt="Final Empire: social network, interactive" width="300"/>
                     <p style="text-align: center">Eyebrow social network</p>
                 </a>
@@ -30,13 +30,13 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 <p>Static</p>
             </td>
             <td>
-                <a href="viz/fe_counts.md" title="Go to static visualization" display='inline'>
+                <a href="viz/fe_counts.html" title="Go to static visualization" display='inline'>
                     <img src="viz/fe_counts.png" alt="Final Empire: Total eyebrow raises, static" width="350"/>
                     <p style="text-align: center">Total eyebrow raiser/raisee counts</p>
                 </a>
             </td>
             <td>
-                <a href="viz/fe_swarm.md" title="Go to static visualization" display='inline'>
+                <a href="viz/fe_swarm.html" title="Go to static visualization" display='inline'>
                     <img src="viz/fe_swarm.png" alt="Final Empire: Connections over time, static" width="350"/>
                     <p style="text-align: center">Eyebrow exchanges over time - static</p>
                 </a>
@@ -60,7 +60,7 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 </a>
             </td>
             <td>
-                <a href="viz/wa_net.md" title="Go to interactive visualization" display='inline'>
+                <a href="viz/wa_net.html" title="Go to interactive visualization" display='inline'>
                     <img src="img/wa_net.gif" alt="Well of Ascension: social network, interactive" width="300"/>
                     <p style="text-align: center">Eyebrow social network</p>
                 </a>
@@ -71,13 +71,13 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 <p>Static</p>
             </td>
             <td>
-                <a href="viz/wa_counts.md" title="Go to static visualization" display='inline'>
+                <a href="viz/wa_counts.html" title="Go to static visualization" display='inline'>
                     <img src="viz/wa_counts.png" alt="Well of Ascension: Total eyebrow raises, static" width="350"/>
                     <p style="text-align: center">Total eyebrow raiser/raisee counts</p>
                 </a>
             </td>
             <td>
-                <a href="viz/wa_swarm.md" title="Go to static visualization" display='inline'>
+                <a href="viz/wa_swarm.html" title="Go to static visualization" display='inline'>
                     <img src="viz/wa_swarm.png" alt="Well of Ascension: Connections over time, static" width="300"/>
                     <p style="text-align: center">Eyebrow exchanges over time - static</p>
                 </a>
@@ -101,7 +101,7 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 </a>
             </td>
             <td>
-                <a href="viz/ha_net.md" title="Go to interactive visualization" display='inline'>
+                <a href="viz/ha_net.html" title="Go to interactive visualization" display='inline'>
                     <img src="img/ha_net.gif" alt="Hero of Ages: social network, interactive" width="300"/>
                     <p style="text-align: center">Eyebrow social network</p>
                 </a>
@@ -112,13 +112,13 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
                 <p>Static</p>
             </td>
             <td>
-                <a href="viz/ha_counts.md" title="Go to static visualization" display='inline'>
+                <a href="viz/ha_counts.html" title="Go to static visualization" display='inline'>
                     <img src="viz/ha_counts.png" alt="Hero of Ages: Total eyebrow raises, static" width="350"/>
                     <p style="text-align: center">Total eyebrow raiser/raisee counts</p>
                 </a>
             </td>
             <td>
-                <a href="viz/ha_swarm.md" title="Go to static visualization" display='inline'>
+                <a href="viz/ha_swarm.html" title="Go to static visualization" display='inline'>
                     <img src="viz/ha_swarm.png" alt="Hero of Ages: Connections over time, static" width="300"/>
                     <p style="text-align: center">Eyebrow exchanges over time - static</p>
                 </a>
@@ -133,13 +133,13 @@ Below is a compilation of visualizations analyzing the social dynamics in the fi
     <table>
         <tr>
             <td>
-                <a href="viz/mb_counts.md" title="Go to static visualization" display='inline'>
+                <a href="viz/mb_counts.html" title="Go to static visualization" display='inline'>
                     <img src="viz/mb_counts.png" alt="Mistborn: Total eyebrow raises, static" width="350"/>
                     <p style="text-align: center">Total eyebrow raiser/raisee counts</p>
                 </a>
             </td>
             <td>
-                <a href="viz/mb_net.md" title="Go to interactive visualization" display='inline'>
+                <a href="viz/mb_net.html" title="Go to interactive visualization" display='inline'>
                     <img src="img/mb_net.gif" alt="Mistborn: social network, interactive" width="300"/>
                     <p style="text-align: center">Eyebrow social network</p>
                 </a>
