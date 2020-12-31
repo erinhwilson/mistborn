@@ -1,6 +1,13 @@
 # Mistborn: The Final Eyebrow
 
-Below is a compilation of visualizations analyzing the social dynamics in the first Mistborn book based on the number of times characters "raise an eyebrow" at another character. The full article describing the pilot analysis is available here {ADD LINK}.
+Below is a compilation of visualizations analyzing the social dynamics in the _Mistborn_ series based on the number of times characters "raise an eyebrow" at another character. The full article describing the pilot analysis is available here {ADD LINK}. 
+
+To briefly describe the underlying data:
+* We borrowed an eBook copy of _The Final Empire, The Well of Ascension_, and _The Hero of Ages_.
+* We ‘control-F’ed for instances of the word ‘eyebrow.’
+* We read the passage surrounding the eyebrow interaction to ensure it was indeed a “raising” or “cocking” or “lifting” of said eyebrow - basically we counted any sort of elevation.
+* We recorded: 1) the character raising the eyebrow (“source”), 2) the character at whom the eyebrow was raised (“target”), and 3) the page number of the interaction.
+
 
 ## Visualization gallery
 
