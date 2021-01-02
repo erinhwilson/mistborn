@@ -10,9 +10,8 @@
   src="https://observablehq.com/embed/ea523a627b98997b?cell=ha_chart"></iframe>
 
 
-| Go to [Final Empire Network](fe_net.html) | Go to [Well of Ascension Network](wa_net.html) | Go to [Hero of Ages Network](ha_net.html)| Go to [Whole Trilogy Network](mb_net.html)
+Go to:
 
-| :---:|:----:|:---: |:---: |
-
+|[Final Empire Network](fe_net.html) |[Well of Ascension Network](wa_net.html) |[Hero of Ages Network](ha_net.html)|[Whole Trilogy Network](mb_net.html)|
 
 ### Return to visualization [home](../index.md)

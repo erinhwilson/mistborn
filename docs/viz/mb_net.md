@@ -11,10 +11,10 @@ _Note: "tensoon" and "oreseur" are counted separately, though "oreseur" is later
 <iframe width="100%" height="684" frameborder="0"
   src="https://observablehq.com/embed/ea523a627b98997b?cell=mb_chart"></iframe>
 
+Go to:
 
-| Go to [Final Empire Network](fe_net.html) | Go to [Well of Ascension Network](wa_net.html) | Go to [Hero of Ages Network](ha_net.html)| Go to [Whole Trilogy Network](mb_net.html)
+|[Final Empire Network](fe_net.html) |[Well of Ascension Network](wa_net.html) |[Hero of Ages Network](ha_net.html)|[Whole Trilogy Network](mb_net.html)|
 
-| :---:|:----:|:---: |:---: |
 
 
 ### Return to visualization [home](../index.md)
