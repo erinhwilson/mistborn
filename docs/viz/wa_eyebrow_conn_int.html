@@ -8,8 +8,13 @@
     .aligncenter {
         text-align: center;
     }
-    p,h1 {
+    p,h1,h2,h3,td {
       font-family: Arial;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 3px;
     }
   </style>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
@@ -42,5 +47,30 @@
   <p class="aligncenter">
     <img src="eyebrow_legend.png" class="center" width="300"/>
   </p>
+
+  <h3>Go to: </h3>
+  <div>
+    <table>
+      <tr>
+        <td>
+            <a href="fe_eyebrow_conn_int.html" title="Go to interactive visualization" display='inline'>
+                <p style="text-align: center">Final Empire Eyebrow connections</p>
+            </a>
+        </td>
+        <td>
+            <a href="wa_eyebrow_conn_int.html" title="Go to interactive visualization" display='inline'>
+                <p style="text-align: center">Well of Ascension Eyebrow connections</p>
+            </a>
+        </td>
+        <td>
+            <a href="ha_eyebrow_conn_int.html" title="Go to interactive visualization" display='inline'>
+                <p style="text-align: center">Hero of Ages Eyebrow connections</p>
+            </a>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <h2>Return to visualization <a href="../index.md">home.</a></h2>
+  
 </body>
 </html>
